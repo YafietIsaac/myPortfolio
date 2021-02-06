@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yafiet Isaac's Portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+<!--Nav Bar on top-->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a id="navName" class="navbar-brand name" href="./index.html">Yafiet Isaac</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a id="navTab" class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="navTab" class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a id="navTab" class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--Body of my container-->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 amCard">
+      <!--card about me-->
+      <main class="bgCard" class="card" style="width: 25rem; black;">
+        <img src="./images/profilepic3.jpg" class="card-img-top" alt="picOfYafiet">
+        <div class="card-body">
+          <h5 class="titleCard" class="card-title" ">About Me</h5>
+          <p class="card-text">My name is Yafiet Isaac and I am student at UCI's coding bootcamp. I attended OCC and CSULB and decided to learn how to become a software/web developer by attending this bootcamp.
+          </p>
+          <a href="https://github.com/YafietIsaac" class="btn btn-primary">GitHub</a>
+          <a href="https://www.linkedin.com/in/yafiet-isaac-946249202/" class="btn btn-primary">LinkdIn</a>
+        </div>
+      </main>
+    </div>
+
+    <!--Some of my hobbies section-->
+    <div class="col-md-6">
+      <h1 id="listname">Some of my Hobbies </h1>
+      <!--LIST OF IMPORTANT FACTS-->
+      <ul class="list-group">
+        <li class="list-group-item">Going on Roadtrips</li>
+        <li class="list-group-item">Hanging out with Friends</li>
+        <li class="list-group-item">Playing video games</li>
+        <li class="list-group-item">Watching movies</li>
+      </ul>
+
+
+    </div>
+  </div>
+  <!--Carousel in the second row of index page-->
+  <div class="row">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <main class="carousel-inner">
+        <section class="carousel-item active">
+          <img id=codePic src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg" class="d-block w-100" alt="code">
+        </section>
+        <section class="carousel-item">
+          <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2019%2F06%2Fmonument-valley-road-trip-BESTRDS0619.jpg" class="d-block w-100" alt="roadtrip">
+        </section>
+        <section class="carousel-item">
+          <img src="https://static01.nyt.com/images/2020/03/24/arts/gaming-newbies-stadia/gaming-newbies-stadia-mobileMasterAt3x.jpg" class="d-block w-100" alt="videoGames">
+        </section>
+      </main>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+  
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
