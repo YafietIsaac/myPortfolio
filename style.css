@@ -6,6 +6,16 @@
   background-color: rgb(48, 46, 46);
 }
 
+@media screen and (max-width: 576px){
+
+
+
+  .bgCard{
+    width: 18rem;
+  }
+}
+
+
 body {
   background-color: rgb(48, 46, 46);
 }
@@ -19,6 +29,8 @@ body {
 .bgCard{
   background-color: black;
 }
+
+
 .titleCard{
   color:white;
 }
