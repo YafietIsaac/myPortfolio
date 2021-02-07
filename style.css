@@ -38,7 +38,19 @@ body {
 .titleCard{
   color:white;
 }
+@media screen and (max-width:600px){
+  #inputName{
+    margin-left:100px;
+  }
+  #textName{
+    margin-left:100px;
+  }
 
+  #contactHeader{
+    font-size:30px;
+  }
+
+}
 #inputName{
   color:white;
   padding-bottom: 20px;
