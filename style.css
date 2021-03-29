@@ -15,6 +15,10 @@ body {
   
 }
 
+.cactus{
+  padding-bottom: 0%;
+}
+
 #contactHead{
   font-size: xx-large;
   font-family: Arial, Helvetica, sans-serif;
